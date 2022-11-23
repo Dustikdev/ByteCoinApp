@@ -13,6 +13,9 @@
 		79DA49C0292D2A0600A43627 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79DA49BE292D2A0600A43627 /* LaunchScreen.storyboard */; };
 		79DA49C8292D2A5F00A43627 /* ByteCoinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA49C7292D2A5F00A43627 /* ByteCoinVC.swift */; };
 		79DA49CC292E7A1500A43627 /* ByteCoinVC+ExtUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA49CB292E7A1500A43627 /* ByteCoinVC+ExtUI.swift */; };
+		79DA49CE292E878700A43627 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA49CD292E878700A43627 /* DataModel.swift */; };
+		79DA49D0292E87A100A43627 /* CodableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA49CF292E87A100A43627 /* CodableData.swift */; };
+		79DA49D2292E87BB00A43627 /* ByteCoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA49D1292E87BB00A43627 /* ByteCoinManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		79DA49C1292D2A0600A43627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79DA49C7292D2A5F00A43627 /* ByteCoinVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByteCoinVC.swift; sourceTree = "<group>"; };
 		79DA49CB292E7A1500A43627 /* ByteCoinVC+ExtUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ByteCoinVC+ExtUI.swift"; sourceTree = "<group>"; };
+		79DA49CD292E878700A43627 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		79DA49CF292E87A100A43627 /* CodableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableData.swift; sourceTree = "<group>"; };
+		79DA49D1292E87BB00A43627 /* ByteCoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByteCoinManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 		79DA49CA292D2A7C00A43627 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				79DA49D1292E87BB00A43627 /* ByteCoinManager.swift */,
+				79DA49CF292E87A100A43627 /* CodableData.swift */,
+				79DA49CD292E878700A43627 /* DataModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -153,7 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79DA49CE292E878700A43627 /* DataModel.swift in Sources */,
 				79DA49B4292D2A0500A43627 /* AppDelegate.swift in Sources */,
+				79DA49D0292E87A100A43627 /* CodableData.swift in Sources */,
+				79DA49D2292E87BB00A43627 /* ByteCoinManager.swift in Sources */,
 				79DA49CC292E7A1500A43627 /* ByteCoinVC+ExtUI.swift in Sources */,
 				79DA49C8292D2A5F00A43627 /* ByteCoinVC.swift in Sources */,
 				79DA49B6292D2A0500A43627 /* SceneDelegate.swift in Sources */,
